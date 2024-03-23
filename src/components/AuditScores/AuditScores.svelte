@@ -19,19 +19,3 @@
     </div>
   </div>
 </section>
-
-<style>
-  .card::before {
-    /* content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%; */
-    background: linear-gradient(25.39deg, rgba(255, 255, 255, 0.024) 18.54%, rgba(123, 245, 93, 0.108) 62.25%);
-    /* backdrop-filter: blur(60px); */
-    /* border-radius: 68px; */
-    /* border: 1px solid rgba(123, 245, 93, .01); */
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
-  }
-</style>

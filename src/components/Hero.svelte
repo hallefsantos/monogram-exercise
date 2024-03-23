@@ -1,5 +1,5 @@
-<section class="pt-[153px] h-screen">
-  <div class="max-w-[1320px] mx-auto">
+<section class="pt-[153px]">
+  <div class="max-w-[1320px] mx-auto px-5">
     <div class="flex">
       <div>
         <h1 class="text-4xl font-black">jamstack
