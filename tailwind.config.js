@@ -30,6 +30,16 @@ export default {
       pink: '#FF069C',
       white: '#FFFFFF',
     },
+    fontSize: {
+      xs: ['8px', '195%'],
+      sm: ['18px', '195%'],
+      md: ['24px', '162%'],
+      lg: ['26px', '162%'],
+      xl: ['54px', '162%'],
+      '2xl': ['63px', '100%'],
+      '3xl': ['76px', '100%'],
+      '4xl': ['133px', '152px'],
+    },
     fontFamily: {
       'sans': ['Inter', ...defaultTheme.fontFamily.sans],
     },
