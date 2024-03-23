@@ -5,6 +5,7 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     colors: {
+      'transparent': 'transparent',
       'gray': {
         100: '#E8E8E8',
         200: '#C7C7C7',
