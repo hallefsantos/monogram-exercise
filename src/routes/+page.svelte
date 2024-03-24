@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { AuditScores } from '$components/AuditScores'
-  import { Footer, Hero, Markup } from '$components'
+  import { Footer, Javascript, Hero, Markup } from '$components'
 </script>
 
 <svelte:head>
@@ -9,10 +9,7 @@
 
 
 <Hero />
-<section>
-  <h2>javascript</h2>
-  <p>Statically generated pages are brought to life with client-side JavaScript libraries and frameworks, such as Algolia and Next.js.</p>
-</section>
+<Javascript />
 
 <section>
   <h2>api</h2>

@@ -41,9 +41,20 @@ export default {
       '3xl': ['76px', '100%'],
       '4xl': ['133px', '152px'],
     },
-    fontFamily: {
-      'sans': ['Inter', ...defaultTheme.fontFamily.sans],
-    },
+    extend: {
+      fontFamily: {
+        'sans': ['Inter', ...defaultTheme.fontFamily.sans],
+      },
+      keyframes: {
+        blink: {
+          '0%, 100%': { opacity: 1 },
+          '50%': { opacity: 0 },
+        },
+      },
+      animation: {
+        blink: 'blink 1s ease-in-out infinite',
+      },
+    }
   },
   plugins: [],
 }
