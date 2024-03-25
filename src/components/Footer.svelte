@@ -1,6 +1,11 @@
-<footer class="pt-[245px] pb-[156px] bg-gray-900">
+<footer class="py-20 xl:pt-[245px] xl:pb-[156px] bg-gray-900">
   <div class="relative z-20 container mx-auto px-5 text-center">
-    <p class="text-md text-white">This is a design test by <a href="https://github.com/hallefsantos" target="_blank">@hallefsantos</a> for Monogram.</p>
-    <span class="inline-block text-pink text-xl mt-[30px]"> ❤️ </span>
+    <p class="text-sm xl:text-md text-white">
+      This is a design test by
+      <a href="https://github.com/hallefsantos" class="hover:text-pink transition-all" target="_blank">@hallefsantos</a>
+      for
+      <a href="https://monogram.io/" class="hover:text-pink transition-all" target="_blank">Monogram</a>.
+    </p>
+    <span class="inline-block text-pink text-lg xl:text-xl mt-4 xl:mt-[30px]"> ❤️ </span>
   </div>
 </footer>
