@@ -6,8 +6,7 @@
   let typewritingFinished = false
 
   onMount(() => {
-    const codeArr = retroComputer.innerText.split('')
-    codeArr.pop()
+    const codeArr = retroComputer.innerText.trimEnd().split('')
     let index = 0
     if (retroComputer) {
       retroComputer.innerText = ''
@@ -21,7 +20,6 @@
           clearInterval(interval)
         }
       }, 50)
-
     }
   })
 </script>
@@ -37,7 +35,7 @@
 <div class="absolute top-[5%] sm:top-[5.5%] lg:top-[6%] left-[15.5%]">
   <pre class="text-left leading-[1px] sm:leading-[3px] lg:leading-[9px] xl:leading-[12px]">
     <code class="font-mono text-[3px] sm:text-[4px] lg:text-[6.5px] xl:text-[8px]">
-      <span bind:this={retroComputer} class={cn('after:relative after:top-0.5 after:w-1 after:inline-block after:h-2 after:bg-blue-400 after:ml-0.5', {
+      <span bind:this={retroComputer} class={cn('after:relative after:top-0.5 after:w-0.5 xl:after:w-1 after:inline-block after:h-1.5 xl:after:h-2 after:bg-blue-400 after:ml-0.5', {
         'after:animate-blink': typewritingFinished,
       })}>
 {`
