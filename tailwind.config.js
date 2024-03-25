@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const plugin = require('tailwindcss/plugin')
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -42,20 +43,57 @@ export default {
       '4xl': ['133px', '152px'],
     },
     extend: {
+
+      dropShadow: {
+        path: [
+          '0 0 1.875rem rgba(255, 255, 255, .58)',
+          '0 -2.1875rem 2.5625rem rgba(255, 255, 255, .41)',
+          '0 -5.6875rem 4.375rem rgba(255, 255, 255, .51)',
+          '0 -10.25rem 5.6875rem rgba(255, 255, 255, .31)',
+        ],
+        path2: [
+          '0px 0px 30px rgba(255, 255, 255, 0.58)',
+          '0px -35px 41px rgba(255, 255, 255, 0.41)',
+          '0px -91px 70px rgba(255, 255, 255, 0.51) ',
+          '0px -164px 91px rgba(255, 255, 255, 0.31)',
+        ],
+      },
       fontFamily: {
         'sans': ['Inter', ...defaultTheme.fontFamily.sans],
+        'mono': ['Menlo', ...defaultTheme.fontFamily.mono],
       },
       keyframes: {
         blink: {
           '0%, 100%': { opacity: 1 },
           '50%': { opacity: 0 },
         },
+        updown: {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(20px)' },
+        },
       },
       animation: {
         blink: 'blink 1s ease-in-out infinite',
+        updown: 'updown 2.5s ease-in-out infinite alternate',
+        updownReverse: 'updown 2.5s ease-in-out infinite alternate reverse',
       },
     }
   },
-  plugins: [],
+  plugins: [
+    plugin(({ matchUtilities, theme }) => {
+      matchUtilities(
+        {
+          "animation-delay": (value) => {
+            return {
+              "animation-delay": value,
+            };
+          },
+        },
+        {
+          values: theme("transitionDelay"),
+        }
+      );
+    }),
+  ],
 }
 

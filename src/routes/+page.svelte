@@ -16,6 +16,15 @@
   <title>Front-end Development Exercise III</title>
 </svelte:head>
 
+<!-- Background -->
+<div class="fixed z-10 left-1/2 -translate-x-1/2 inset-0 max-w-[1280px] w-full h-full flex justify-between opacity-20 pointer-events-none">
+  <span class="line inline-block w-[1px] bg-repeat-y bg-[length:1px_8px]"></span>
+  <span class="line inline-block w-[1px] bg-repeat-y bg-[length:1px_8px]"></span>
+  <span class="line inline-block w-[1px] bg-repeat-y bg-[length:1px_8px]"></span>
+  <span class="line inline-block w-[1px] bg-repeat-y bg-[length:1px_8px]"></span>
+  <span class="line inline-block w-[1px] bg-repeat-y bg-[length:1px_8px]"></span>
+</div>
+
 
 <Hero />
 <Javascript />
@@ -23,3 +32,9 @@
 <Markup />
 <AuditScores />
 <Footer />
+
+<style>
+  .line {
+    background-image: linear-gradient(to bottom, #E8E8E8 0px, #E8E8E8 4px, transparent 4px, transparent 8px);
+  }
+</style>

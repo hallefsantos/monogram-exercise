@@ -1,8 +1,8 @@
 <script>
 	import { Score } from '.'
 </script>
-<section class="bg-gray-900">
-  <div class="relative -top-20 before:absolute before:inset-0 before:bg-[linear-gradient(25.39deg,_rgba(255,_255,_255,_0.024)_18.54%,_rgba(123,_245,_93,_0.108)_62.25%)] before:backdrop-blur-2xl before:scale-x-[-1] max-w-[1204px] w-full h-[1328px] pt-[120px] px-[77px] pb-[217px] mx-auto rounded-[68px] border-2 border-[#7BF55D]/10 overflow-hidden">
+<section class="relative bg-gray-900">
+  <div class="relative z-20 -top-20 before:absolute before:inset-0 before:bg-[linear-gradient(25.39deg,_rgba(255,_255,_255,_0.024)_18.54%,_rgba(123,_245,_93,_0.108)_62.25%)] before:backdrop-blur-2xl before:scale-x-[-1] max-w-[1204px] w-full h-[1328px] pt-[120px] px-[77px] pb-[217px] mx-auto rounded-[68px] border-2 border-[#7BF55D]/10 overflow-hidden">
     <div class="relative z-10">
       <h2 class="text-green-100 font-black text-center text-3xl">top audit scores</h2>
       <div class="flex justify-between items-center mt-[96px]">
