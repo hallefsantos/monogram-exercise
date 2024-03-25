@@ -1,4 +1,4 @@
-<footer class="py-20 xl:pt-[245px] xl:pb-[156px] bg-gray-900">
+<footer class="pb-10 xl:pt-[160px] xl:pb-[156px] bg-gray-900">
   <div class="relative z-20 container mx-auto px-5 text-center">
     <p class="text-sm xl:text-md text-white">
       This is a design test by
