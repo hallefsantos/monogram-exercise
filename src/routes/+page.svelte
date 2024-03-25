@@ -1,6 +1,15 @@
 <script lang="ts">
+	import { onMount } from 'svelte'
 	import { AuditScores } from '$components/AuditScores'
-  import { Footer, Javascript, Hero, Markup } from '$components'
+  import { Api, Footer, Javascript, Hero, Markup } from '$components'
+
+  import AOS from 'aos'
+  import 'aos/dist/aos.css'
+
+  onMount(() => AOS.init({
+    duration: 2000,
+    once: true,
+  }))
 </script>
 
 <svelte:head>
@@ -10,13 +19,7 @@
 
 <Hero />
 <Javascript />
-
-<section>
-  <h2>api</h2>
-  <p>At build time, a Jamstack website uses data from one or more APIs to generate markup. These APIs can be a headless CMS like Prismic, a database like Supabase, or even a local JSON file!</p>
-</section>
-
-
+<Api />
 <Markup />
 <AuditScores />
 <Footer />

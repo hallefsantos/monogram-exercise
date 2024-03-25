@@ -1,3 +1,4 @@
+export { default as Api } from './Api.svelte'
 export { default as Footer } from './Footer.svelte'
 export { default as Hero } from './Hero.svelte'
 export { default as Javascript } from './Javascript.svelte'
