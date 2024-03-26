@@ -32,12 +32,6 @@
 
 <T.AmbientLight intensity={4} />
 
-<!-- <T.DirectionalLight
-  intensity={15}
-  position={[ 25, 0, 5 ]}
-  angle={Math.PI / 6}
-/> -->
-
 <T.Mesh>
   <T.SphereGeometry args={[5, 50, 50]} />
   {#if $texture}

@@ -50,3 +50,9 @@
     </div>
   </div>
 </section>
+
+<style>
+  :global(canvas) {
+    border-radius: 50%;
+  }
+</style>
