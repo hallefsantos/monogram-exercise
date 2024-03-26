@@ -41,7 +41,7 @@
     <img src="/squiggly.svg" class="absolute top-[31%] left-0 w-full" alt="Squiggly bg">
     <div class="relative z-20 w-full md:w-[900px] aspect-square mx-auto -rotate-[27deg]">
       <img class="absolute z-[-1] top-[40%] left-[40%] -translate-y-1/2 -translate-x-1/2 w-full scale-[1.4]" src="/globe-glow.png" alt="Globe glow">
-      <img class="absolute z-[-1] inset-0" src="/globe.png" alt="Globe bg">
+      <svg class="absolute z-[-1] inset-0" xmlns="http://www.w3.org/2000/svg" width="914" height="914" fill="none"><mask id="a" width="914" height="914" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><circle cx="457" cy="457" r="457" fill="#D9D9D9"/></mask><g mask="url(#a)"><circle cx="457" cy="457" r="457" fill="url(#b)"/><circle cx="457" cy="457" r="457" fill="url(#c)"/></g><defs><radialGradient id="c" cx="0" cy="0" r="1" gradientTransform="rotate(90 0 457) scale(457)" gradientUnits="userSpaceOnUse"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".964" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".36"/></radialGradient><linearGradient id="b" x1="119.5" x2="825.5" y1="763" y2="190" gradientUnits="userSpaceOnUse"><stop stop-color="#01A6DC"/><stop offset=".557" stop-color="#8801E4"/><stop offset="1" stop-color="#F5CBE1"/></linearGradient></defs></svg>
       <div class="w-full h-full mix-blend-color-dodge scale-[1.01]">
         <!-- <Canvas>
           <Globe />
