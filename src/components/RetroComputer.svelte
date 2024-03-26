@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount, tick } from 'svelte'
-  import { cn } from '$lib/utils';
+  import { cn } from '$lib/utils'
 
   let retroComputer: HTMLElement
   let typewritingFinished = false
