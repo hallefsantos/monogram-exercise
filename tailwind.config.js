@@ -51,12 +51,6 @@ export default {
           '0 -5.6875rem 4.375rem rgba(255, 255, 255, .51)',
           '0 -10.25rem 5.6875rem rgba(255, 255, 255, .31)',
         ],
-        path2: [
-          '0px 0px 30px rgba(255, 255, 255, 0.58)',
-          '0px -35px 41px rgba(255, 255, 255, 0.41)',
-          '0px -91px 70px rgba(255, 255, 255, 0.51) ',
-          '0px -164px 91px rgba(255, 255, 255, 0.31)',
-        ],
       },
       fontFamily: {
         'sans': ['Inter', ...defaultTheme.fontFamily.sans],
@@ -71,11 +65,15 @@ export default {
           '0%': { transform: 'translateY(0)' },
           '100%': { transform: 'translateY(20px)' },
         },
+        score: {
+          to: { 'stroke-dashoffset': 0 }
+        }
       },
       animation: {
         blink: 'blink 1s ease-in-out infinite',
         updown: 'updown 2.5s ease-in-out infinite alternate',
         updownReverse: 'updown 2.5s ease-in-out infinite alternate reverse',
+        score: 'score 10s ease-out',
       },
     }
   },

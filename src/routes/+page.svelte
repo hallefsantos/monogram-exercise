@@ -29,9 +29,9 @@
 <Hero />
 <Javascript />
 <Api />
-<!-- <Markup />
+<Markup />
 <AuditScores />
-<Footer /> -->
+<Footer />
 
 <style>
   .line {
