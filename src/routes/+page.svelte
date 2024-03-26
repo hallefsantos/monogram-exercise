@@ -27,8 +27,8 @@
 
 <!-- <Hero />
 <Javascript />
-<Api />
-<Markup /> -->
+<Api /> -->
+<Markup />
 <AuditScores />
 <Footer />
 
