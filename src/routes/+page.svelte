@@ -14,6 +14,7 @@
 
 <svelte:head>
   <title>Front-end Development Exercise III</title>
+  <meta name="description" content="This landing page is a exercise created using SvelteKit + Tailwind for Monogram">
 </svelte:head>
 
 <!-- Background -->
