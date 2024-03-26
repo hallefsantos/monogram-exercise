@@ -4,7 +4,7 @@
 </script>
 
 <section class="relative pt-[275px] bg-gray-900">
-  <div class="grid grid-cols-3 xl:grid-cols-4 gap-6 xl:gap-0 max-w-[1280px] w-full mx-auto px-20 xl:px-0">
+  <!-- <div class="grid grid-cols-3 xl:grid-cols-4 gap-6 xl:gap-0 max-w-[1280px] w-full mx-auto px-20 xl:px-0">
     <div class="col-start-3 xl:col-start-4 flex justify-center" data-aos="fade-up">
       <img class="drop-shadow-path" src="/nextjs.svg" alt="Nextjs logo" width="124" height="75">
     </div>
@@ -29,7 +29,7 @@
     <div class="row-start-7 xl:col-start-4 flex justify-center mt-[35px]" data-aos="fade-up">
       <img class="drop-shadow-path opacity-10" src="/svelte.svg" alt="Svelte logo" width="220" height="53">
     </div>
-  </div>
+  </div> -->
 
   <div class="max-w-[770px] mt-10 ml:mt-0 w-full mx-auto px-5 text-center">
     <h2 class="text-[50px] sm:text-4xl font-black text-white">api</h2>
@@ -37,7 +37,7 @@
   </div>
 
   <!-- globe -->
-  <!-- <div class="relative before:absolute before:left-0 before:top-0 before:w-full before:h-2/6 before:bg-gray-900 mt-16 xl:mt-[170px] px-5 bg-white">
+  <div class="relative before:absolute before:left-0 before:top-0 before:w-full before:h-2/6 before:bg-gray-900 mt-16 xl:mt-[170px] px-5 bg-white">
     <img src="/squiggly.svg" class="absolute top-[31%] left-0 w-full" alt="Squiggly bg">
     <div class="relative z-20 w-full md:w-[900px] aspect-square mx-auto -rotate-[27deg]">
       <img class="absolute z-[-1] top-[40%] left-[40%] -translate-y-1/2 -translate-x-1/2 w-full scale-[1.4]" src="/globe-glow.png" alt="Globe glow">
@@ -48,5 +48,5 @@
         </Canvas>
       </div>
     </div>
-  </div> -->
+  </div>
 </section>
