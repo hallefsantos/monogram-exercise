@@ -3,13 +3,13 @@
 	import { AuditScores } from '$components/AuditScores'
   import { Api, Footer, Javascript, Hero, Markup } from '$components'
 
-  import AOS from 'aos'
-  import 'aos/dist/aos.css'
+  // import AOS from 'aos'
+  // import 'aos/dist/aos.css'
 
-  onMount(() => AOS.init({
-    duration: 2000,
-    once: true,
-  }))
+  // onMount(() => AOS.init({
+  //   duration: 2000,
+  //   once: true,
+  // }))
 </script>
 
 <svelte:head>
