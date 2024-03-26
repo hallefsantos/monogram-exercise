@@ -41,11 +41,14 @@
     <img src="/squiggly.svg" class="absolute top-[31%] left-0 w-full" alt="Squiggly bg">
     <!-- <img class="relative z-10 max-w-[914px] w-full mx-auto" src="/3d-circle.webp" alt="Globe"> -->
 
-    <div class="relative z-20 h-[1600px]">
-      <img class="absolute z-[-1] top-[39%] left-[46%] -translate-y-1/2 -translate-x-1/2 w-[1450px]" src="/globe-glow.png" alt="Globe glow">
-      <Canvas>
-        <Globe />
-      </Canvas>
+    <div class="relative z-20 w-full md:w-[900px] aspect-square mx-auto -rotate-[27deg]">
+      <img class="absolute z-[-1] top-[40%] left-[40%] -translate-y-1/2 -translate-x-1/2 w-full scale-[1.4]" src="/globe-glow.png" alt="Globe glow">
+      <img class="absolute z-[-1] inset-0" src="/globe.png" alt="Globe bg">
+      <div class="w-full h-full mix-blend-color-dodge scale-[1.01]">
+        <Canvas>
+          <Globe />
+        </Canvas>
+      </div>
     </div>
   </div>
 </section>

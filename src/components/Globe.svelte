@@ -8,7 +8,6 @@
 
   const texture = useLoader(TextureLoader).load('/texture.jpg')
 
-  export const reset = () => controls.reset()
   let rotation = 0
 
   interactivity()
@@ -19,24 +18,27 @@
 
 <T.PerspectiveCamera
   makeDefault
-  position={[0, 0, 18]}
+  position={[0, 0, 12]}
   lookAt.y={0}
 >
   <OrbitControls
+    autoRotate
     enableZoom={false}
-    bind:ref={controls}
+    rotateSpeed={1}
+    minPolarAngle={1.5}
+    maxPolarAngle={1.6}
   />
 </T.PerspectiveCamera>
 
 <T.AmbientLight intensity={4} />
 
-<T.DirectionalLight
+<!-- <T.DirectionalLight
   intensity={15}
   position={[ 25, 0, 5 ]}
   angle={Math.PI / 6}
-/>
+/> -->
 
-<T.Mesh rotation.y={rotation} position.y={1}>
+<T.Mesh>
   <T.SphereGeometry args={[5, 50, 50]} />
   {#if $texture}
     <T.MeshStandardMaterial map={$texture} />
