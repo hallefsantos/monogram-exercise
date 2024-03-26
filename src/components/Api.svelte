@@ -37,10 +37,8 @@
   </div>
 
   <!-- globe -->
-  <div class="relative before:absolute before:left-0 before:top-0 before:w-full before:h-2/6 before:bg-gray-900 mt-16 xl:mt-[170px] px-5 bg-white">
+  <!-- <div class="relative before:absolute before:left-0 before:top-0 before:w-full before:h-2/6 before:bg-gray-900 mt-16 xl:mt-[170px] px-5 bg-white">
     <img src="/squiggly.svg" class="absolute top-[31%] left-0 w-full" alt="Squiggly bg">
-    <!-- <img class="relative z-10 max-w-[914px] w-full mx-auto" src="/3d-circle.webp" alt="Globe"> -->
-
     <div class="relative z-20 w-full md:w-[900px] aspect-square mx-auto -rotate-[27deg]">
       <img class="absolute z-[-1] top-[40%] left-[40%] -translate-y-1/2 -translate-x-1/2 w-full scale-[1.4]" src="/globe-glow.png" alt="Globe glow">
       <img class="absolute z-[-1] inset-0" src="/globe.png" alt="Globe bg">
@@ -50,5 +48,5 @@
         </Canvas>
       </div>
     </div>
-  </div>
+  </div> -->
 </section>
