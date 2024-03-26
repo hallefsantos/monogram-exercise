@@ -1,15 +1,14 @@
 <script lang="ts">
 	import { onMount } from 'svelte'
+  import AOS from 'aos'
+  import 'aos/dist/aos.css'
 	import { AuditScores } from '$components/AuditScores'
-  import { Api, Footer, Javascript, Hero, Markup } from '$components'
+  import { Api, Footer, Javascript, Hero, Markup, Globe } from '$components'
 
-  // import AOS from 'aos'
-  // import 'aos/dist/aos.css'
-
-  // onMount(() => AOS.init({
-  //   duration: 2000,
-  //   once: true,
-  // }))
+  onMount(() => AOS.init({
+    duration: 2000,
+    once: true,
+  }))
 </script>
 
 <svelte:head>
@@ -27,11 +26,18 @@
 </div>
 
 
+<!-- Globe -->
+<section class="bg-white py-10">
+  <Globe />
+</section>
+
 <Hero />
 <Javascript />
 <Api />
 <Markup />
 <AuditScores />
+
+
 <Footer />
 
 <style>
