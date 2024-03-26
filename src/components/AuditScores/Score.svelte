@@ -1,3 +1,21 @@
+<script lang="ts">
+	import { onMount } from 'svelte'
+
+  let count = 0
+  const totalTime = 10000
+  const intervalTime = (totalTime / 100) / 2.15
+
+  onMount(() => {
+    const counting = setInterval(() => {
+        if (count < 100) {
+          count += 1
+        } else {
+          clearInterval(counting)
+        }
+    }, intervalTime)
+  })
+</script>
+
 <div class="relative grid place-items-center xl:max-w-[212px] w-[112px] xl:w-full mx-auto aspect-square rounded-full">
   <svg class="absolute top-1/2 left-[45.5%] -translate-y-1/2 -translate-x-1/2 w-[150%]" viewBox="0 0 320 338" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g filter="url(#filter0_ddd_15_192)">
@@ -32,5 +50,5 @@
         </filter>
     </defs>
   </svg>
-  <span class="text-green-100 font-bold text-lg xl:text-2xl [text-shadow:_0px_0px_12px_#53FB2A,_0px_0px_42px_#E9E11F,_0px_0px_61px_#53FB2A]">100</span>
+  <span class="text-green-100 font-bold text-lg xl:text-2xl [text-shadow:_0px_0px_12px_#53FB2A,_0px_0px_42px_#E9E11F,_0px_0px_61px_#53FB2A]">{count}</span>
 </div>
