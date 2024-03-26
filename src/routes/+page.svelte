@@ -1,10 +1,9 @@
 <script lang="ts">
-  import { Canvas } from '@threlte/core'
 	import { onMount } from 'svelte'
   import AOS from 'aos'
   import 'aos/dist/aos.css'
 	import { AuditScores } from '$components/AuditScores'
-  import { Api, Footer, Javascript, Hero, Markup, Globe } from '$components'
+  import { Api, Footer, Javascript, Hero, Markup } from '$components'
 
   onMount(() => AOS.init({
     duration: 2000,
@@ -26,21 +25,11 @@
   <span class="line hidden xl:inline-block w-[1px] bg-repeat-y bg-[length:1px_8px]"></span>
 </div>
 
-
-<!-- Globe -->
-<!-- <section class="relative z-20 bg-white py-10 h-screen">
-  <Canvas>
-    <Globe />
-  </Canvas>
-</section> -->
-
 <Hero />
 <Javascript />
 <Api />
 <Markup />
 <AuditScores />
-
-
 <Footer />
 
 <style>

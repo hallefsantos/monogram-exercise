@@ -1,3 +1,8 @@
+<script lang="ts">
+    import { Canvas } from '@threlte/core'
+    import Globe from './Globe.svelte'
+</script>
+
 <section class="relative pt-[275px] bg-gray-900">
   <div class="grid grid-cols-3 xl:grid-cols-4 gap-6 xl:gap-0 max-w-[1280px] w-full mx-auto px-20 xl:px-0">
     <div class="col-start-3 xl:col-start-4 flex justify-center" data-aos="fade-up">
@@ -34,6 +39,13 @@
   <!-- globe -->
   <div class="relative before:absolute before:left-0 before:top-0 before:w-full before:h-2/6 before:bg-gray-900 mt-16 xl:mt-[170px] px-5 bg-white">
     <img src="/squiggly.svg" class="absolute top-[31%] left-0 w-full" alt="Squiggly bg">
-    <img class="relative z-10 max-w-[914px] w-full mx-auto" src="/3d-circle.webp" alt="Globe">
+    <!-- <img class="relative z-10 max-w-[914px] w-full mx-auto" src="/3d-circle.webp" alt="Globe"> -->
+
+    <div class="relative z-20 h-[1600px]">
+      <img class="absolute z-[-1] top-[39%] left-[46%] -translate-y-1/2 -translate-x-1/2 w-[1450px]" src="/globe-glow.png" alt="Globe glow">
+      <Canvas>
+        <Globe />
+      </Canvas>
+    </div>
   </div>
 </section>
