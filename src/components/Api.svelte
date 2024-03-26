@@ -1,5 +1,5 @@
 <section class="relative pt-[275px] bg-gray-900">
-  <div class="grid grid-cols-3 xl:grid-cols-4 gap-6 xl:gap-0 max-w-[1280px] w-full mx-auto px-20">
+  <div class="grid grid-cols-3 xl:grid-cols-4 gap-6 xl:gap-0 max-w-[1280px] w-full mx-auto px-20 xl:px-0">
     <div class="col-start-3 xl:col-start-4 flex justify-center" data-aos="fade-up">
       <img class="drop-shadow-path" src="/nextjs.svg" alt="Nextjs logo" width="124" height="75">
     </div>
