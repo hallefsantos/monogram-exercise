@@ -28,11 +28,11 @@
 
 
 <!-- Globe -->
-<section class="relative z-20 bg-white py-10 h-screen">
+<!-- <section class="relative z-20 bg-white py-10 h-screen">
   <Canvas>
     <Globe />
   </Canvas>
-</section>
+</section> -->
 
 <Hero />
 <Javascript />
