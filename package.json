@@ -37,6 +37,7 @@
 	"type": "module",
 	"dependencies": {
 		"@threlte/core": "^7.2.1",
+		"@threlte/extras": "^8.10.3",
 		"@types/three": "^0.162.0",
 		"aos": "^2.3.4",
 		"three": "^0.162.0"

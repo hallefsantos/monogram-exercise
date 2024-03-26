@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { Canvas } from '@threlte/core'
 	import { onMount } from 'svelte'
   import AOS from 'aos'
   import 'aos/dist/aos.css'
@@ -27,8 +28,10 @@
 
 
 <!-- Globe -->
-<section class="bg-white py-10">
-  <Globe />
+<section class="relative z-20 bg-white py-10 h-screen">
+  <Canvas>
+    <Globe />
+  </Canvas>
 </section>
 
 <Hero />
