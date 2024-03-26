@@ -26,8 +26,8 @@
 </div>
 
 <!-- <Hero />
-<Javascript />
-<Api /> -->
+<Javascript /> -->
+<Api />
 <Markup />
 <AuditScores />
 <Footer />
