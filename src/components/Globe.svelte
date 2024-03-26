@@ -4,6 +4,7 @@
   import { spring } from 'svelte/motion'
 	import { MeshLambertMaterial, TextureLoader } from 'three';
   import { useLoader } from '@threlte/core'
+	import { onMount } from 'svelte';
 
   const texture = useLoader(TextureLoader).load('/texture.png')
 
@@ -22,8 +23,8 @@
   }}
 />
 
-<T.DirectionalLight position={[100, 100, 100]} />
-<T.DirectionalLight position={[100, 100, 100  ]} />
+<T.DirectionalLight position={[50, 50, 50]} />
+<T.DirectionalLight position={[50, 50, 50  ]} />
 
 <T.Mesh
   rotation.y={rotation}
@@ -31,5 +32,7 @@
   position.y={1}
 >
   <T.SphereGeometry args={[5, 100, 16]} />
-  <T.MeshStandardMaterial color="white" map={$texture} />
+  {#if $texture}
+    <T.MeshStandardMaterial color="white" map={$texture} />
+  {/if}
 </T.Mesh>
