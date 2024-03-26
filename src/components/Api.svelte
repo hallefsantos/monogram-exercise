@@ -33,7 +33,7 @@
 
   <!-- globe -->
   <div class="relative before:absolute before:left-0 before:top-0 before:w-full before:h-2/6 before:bg-gray-900 mt-16 xl:mt-[170px] px-5 bg-white">
-    <img src="/squiggly.svg" class="absolute top-[31%] left-0 w-full">
-    <img class="relative z-10 mx-auto" src="/3d-circle.png" alt="Globe">
+    <img src="/squiggly.svg" class="absolute top-[31%] left-0 w-full" alt="Squiggly bg">
+    <img class="relative z-10 max-w-[914px] w-full mx-auto" src="/3d-circle.webp" alt="Globe">
   </div>
 </section>
