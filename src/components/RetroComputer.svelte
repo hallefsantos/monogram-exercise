@@ -19,7 +19,7 @@
           typewritingFinished = true
           clearInterval(interval)
         }
-      }, 50)
+      }, 75)
     }
   })
 </script>
