@@ -25,9 +25,9 @@
   <span class="line hidden xl:inline-block w-[1px] bg-repeat-y bg-[length:1px_8px]"></span>
 </div>
 
-<!-- <Hero />
-<Javascript /> -->
-<Api />
+<Hero />
+<Javascript />
+<!-- <Api /> -->
 <Markup />
 <AuditScores />
 <Footer />
