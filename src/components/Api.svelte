@@ -6,16 +6,16 @@
 <section class="relative pt-[275px] bg-gray-900">
   <div class="grid grid-cols-3 xl:grid-cols-4 gap-6 xl:gap-0 max-w-[1280px] w-full mx-auto px-20 xl:px-0">
     <div class="col-start-3 xl:col-start-4 flex justify-center" data-aos="fade-up">
-      <img class=" src="/nextjs.svg" alt="Nextjs logo" width="124" height="75">
+      <img class="" src="/nextjs.svg" alt="Nextjs logo" width="124" height="75">
     </div>
     <div class="row-start-2 flex justify-center xl:mt-[32px]" data-aos="fade-up">
-      <img class=" src="/react.svg" alt="React logo" width="200" height="55">
+      <img class="" src="/react.svg" alt="React logo" width="200" height="55">
     </div>
     <div class="row-start-3 col-start-2 flex justify-center xl:mt-[52px]" data-aos="fade-up">
-      <img class=" src="/nextjs.svg" alt="Nextjs logo" width="124" height="75">
+      <img class="" src="/nextjs.svg" alt="Nextjs logo" width="124" height="75">
     </div>
     <div class="row-start-4 col-start-3 xl:col-start-4 flex justify-center mt-3" data-aos="fade-up">
-      <img class=" src="/react.svg" alt="React logo" width="200" height="55">
+      <img class="" src="/react.svg" alt="React logo" width="200" height="55">
     </div>
     <div class="row-start-5 flex justify-center mt-[42px]" data-aos="fade-up">
       <img class="opacity-40" src="/svelte.svg" alt="Svelte logo" width="220" height="53">
