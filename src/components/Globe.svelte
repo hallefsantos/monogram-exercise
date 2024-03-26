@@ -4,9 +4,7 @@
   import { TextureLoader } from 'three'
   import { useLoader } from '@threlte/core'
 
-  let controls
-
-  const texture = useLoader(TextureLoader).load('/texture.jpg')
+  const texture = useLoader(TextureLoader).load('/texture.webp')
 
   let rotation = 0
 

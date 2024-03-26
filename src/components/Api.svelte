@@ -40,8 +40,8 @@
   <div class="relative before:absolute before:left-0 before:top-0 before:w-full before:h-2/6 before:bg-gray-900 mt-16 xl:mt-[170px] px-5 bg-white">
     <img src="/squiggly.svg" class="absolute top-[31%] left-0 w-full" alt="Squiggly bg">
     <div class="relative z-20 w-full md:w-[900px] aspect-square mx-auto -rotate-[27deg]">
-      <img class="absolute z-[-1] top-[40%] left-[40%] -translate-y-1/2 -translate-x-1/2 w-full scale-[1.4]" src="/globe-glow.png" alt="Globe glow">
-      <img class="absolute z-[-1] inset-0" src="/globe.png" alt="Globe" />
+      <img class="absolute z-[-1] top-[40%] left-[40%] -translate-y-1/2 -translate-x-1/2 w-full scale-[1.4]" src="/globe-glow.webp" alt="Globe glow">
+      <img class="absolute z-[-1] inset-0" src="/globe.webp" alt="Globe" />
       <div class="w-full h-full mix-blend-color-dodge scale-[1.01]">
         <Canvas>
           <Globe />
