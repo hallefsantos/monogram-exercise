@@ -1,17 +1,10 @@
 <script lang="ts">
-  import { T, useTask } from '@threlte/core'
-  import { interactivity, OrbitControls } from '@threlte/extras'
+  import { T } from '@threlte/core'
+  import { OrbitControls } from '@threlte/extras'
   import { TextureLoader } from 'three'
   import { useLoader } from '@threlte/core'
 
   const texture = useLoader(TextureLoader).load('/texture.webp')
-
-  let rotation = 0
-
-  interactivity()
-  useTask((delta) => {
-    rotation += delta
-  })
 </script>
 
 <T.PerspectiveCamera
