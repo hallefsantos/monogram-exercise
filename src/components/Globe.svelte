@@ -21,11 +21,11 @@
   />
 </T.PerspectiveCamera>
 
-<T.AmbientLight intensity={1} />
+<T.AmbientLight intensity={.5} />
 
 <T.Mesh>
   <T.SphereGeometry args={[1, 8, 8]} />
   {#if $texture}
-    <T.MeshStandardMaterial transparent map={$texture} />
+    <T.MeshStandardMaterial map={$texture} />
   {/if}
 </T.Mesh>
