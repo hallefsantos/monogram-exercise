@@ -1,9 +1,6 @@
 <script lang="ts">
-	import { Canvas } from '@threlte/core';
-  // import { Canvas } from '@threlte/core'
-  // import Globe from './Globe.svelte'
-	import GlobeJs from './GlobeJs.svelte'
-	import { Globe } from '$components';
+	import { Canvas } from '@threlte/core'
+	import { Globe } from '$components'
 </script>
 
 <section class="relative pt-[275px] bg-gray-900">
