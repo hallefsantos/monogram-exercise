@@ -26,6 +26,6 @@
 <T.Mesh>
   <T.SphereGeometry args={[1, 8, 8]} />
   {#if $texture}
-    <T.MeshStandardMaterial map={$texture} />
+    <T.MeshStandardMaterial transparent map={$texture} />
   {/if}
 </T.Mesh>
