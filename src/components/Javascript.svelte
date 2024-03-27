@@ -1,5 +1,6 @@
 <script lang="ts">
 	import visibility from '$actions/visibility'
+	import { cn } from '$lib/utils'
   import RetroComputer from './RetroComputer.svelte'
 
   let isVisible = false
@@ -21,6 +22,22 @@
           <RetroComputer />
         {/if}
       </div>
+    </div>
+
+    <div class="absolute top-[5%] right-[5%] max-xl:hidden">
+      <svg
+        class={cn('absolute top-[14rem] right-[3rem] h-[28rem] duration-[2s]', {
+          '[clip-path:inset(0_0_100%)]': !isVisible,
+          '[clip-path:inset(0)]': isVisible
+        })}
+      viewBox="0 0 248 451" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.00012 0.5C1.00012 0.5 -2.49997 95.5001 111 127C224.5 158.5 265 243 239 333.5C213 424 111 450 111 450" stroke="white" vector-effect="non-scaling-stroke" stroke-width="1" stroke-dasharray="4 4"></path></svg>
+
+      <svg
+        class={cn('absolute top-[41.15rem] right-[10rem] h-[1.5rem] duration-[500ms] delay-[1510ms] ease-out rotate-[60deg]', {
+          '[clip-path:inset(0_50%)]': !isVisible,
+          '[clip-path:inset(0)]': isVisible
+        })}
+        viewBox="0 0 48 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M47.5428 1.20801L24.2083 24.5425L0.873779 1.20801" stroke="white" vector-effect="non-scaling-stroke" stroke-width="1"></path></svg>
     </div>
   </div>
 </section>
