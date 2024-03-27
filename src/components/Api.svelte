@@ -1,7 +1,7 @@
 <script lang="ts">
   // import { Canvas } from '@threlte/core'
   // import Globe from './Globe.svelte'
-	import GlobeThree from './GlobeThree.svelte'
+	import GlobeJs from './GlobeJs.svelte'
 </script>
 
 <section class="relative pt-[275px] bg-gray-900">
@@ -39,7 +39,9 @@
 
 
   <!-- globe -->
-  <GlobeThree />
+  <!-- <GlobeThree /> -->
+
+  <GlobeJs />
 </section>
 
 <style>
