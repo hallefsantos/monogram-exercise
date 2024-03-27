@@ -10,7 +10,7 @@
     <picture>
       <source media="(max-width: 640px)" srcset="/javascript-bg-600w.webp" />
       <source media="(min-width: 641px)" srcset="/javascript-bg.webp" />
-      <img loading="lazy" class="absolute inset-0" src="/javascript-bg.webp" alt="JS background shape">
+      <img class="absolute inset-0" src="/javascript-bg.webp" alt="JS background shape">
     </picture>
     <div class="absolute top-[5%] sm:top-[8%] xl:top-[93px] left-1/2 -translate-x-1/2 max-w-[810px] px-5 w-full text-center">
       <h2 class="text-white text-[40px] sm:text-2xl lg:text-4xl font-black" data-aos="fade-up">javascript</h2>
