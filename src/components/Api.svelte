@@ -45,7 +45,7 @@
     <div class="relative z-20 w-full md:w-[900px] aspect-square mx-auto -rotate-[27deg]">
       <img class="absolute z-[-1] top-[40%] left-[40%] -translate-y-1/2 -translate-x-1/2 w-full scale-[1.4]" src="/globe-glow.webp" alt="Globe glow">
       <img class="absolute z-[-1] inset-0" src="/globe.webp" alt="Globe" />
-      <div class="w-full h-full mix-blend-color-dodge scale-[1.01]">
+      <div class="w-full h-full mix-blend-color-dodge">
         <Canvas>
           <Globe />
         </Canvas>

@@ -9,7 +9,7 @@
 
 <T.PerspectiveCamera
   makeDefault
-  position={[0, 0, 5]}
+  position={[0, 0, 2]}
   lookAt.y={0}
 >
   <OrbitControls
@@ -21,10 +21,10 @@
   />
 </T.PerspectiveCamera>
 
-<T.AmbientLight intensity={.5} />
+<T.AmbientLight intensity={1} />
 
 <T.Mesh>
-  <T.SphereGeometry args={[1, 1, 1]} />
+  <T.SphereGeometry args={[1, 8, 8]} />
   {#if $texture}
     <T.MeshStandardMaterial map={$texture} />
   {/if}
