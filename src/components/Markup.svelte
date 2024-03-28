@@ -1,7 +1,7 @@
-<section class="relative z-20 pt-10 xl:pt-[186px] pb-64 bg-[url('/markup-blocks.svg')] bg-repeat-x bg-bottom">
+<section class="relative z-20 pt-14 xl:pt-[186px] pb-64 bg-[url('/markup-blocks.svg')] bg-repeat-x bg-bottom">
   <div class="relative max-w-[1320px] mx-auto px-5">
     <img
-      class="absolute right-10 xl:-left-10 bottom-0 hidden lg:block w-96"
+      class="absolute right-10 xl:-left-10 bottom-0 hidden lg:block w-96 xl:w-auto"
       src="/markup-blocks-details.svg"
       alt="Blocks details"
     >
