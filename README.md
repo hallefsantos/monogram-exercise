@@ -13,6 +13,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu augue massa, tinci
 - TailwindCSS
 - ThreeJS
 
+## Deployed project
+
+[https://monogram-exercise-kappa.vercel.app/](https://monogram-exercise-kappa.vercel.app/)
+
 ## Installation
 
 This project requires node and npm installed globally.
@@ -20,19 +24,19 @@ This project requires node and npm installed globally.
 Clone the repository to a directory of your choosing
 
 ```bash
-$ git clone git@github.com:hallefsantos/monogram-exercise.git
+git clone git@github.com:hallefsantos/monogram-exercise.git
 ```
 
 Navigate into monogram-exercise and install the necessary packages
 
 ```bash
-$ npm install
+npm install
 ```
 
 To start up the app locally
 
 ```bash
-$ npm run dev
+npm run dev
 ```
 
 ## web.dev
