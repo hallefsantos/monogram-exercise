@@ -44,7 +44,7 @@ npm run dev
 ### Desktop
 <img width="1466" alt="Screenshot 2024-03-27 at 9 40 17 PM" src="https://github.com/hallefsantos/monogram-exercise/assets/20205767/1eb52b6e-b50a-49a5-870e-86b28bf0454e">
 
-### Desktop
+### Mobile
 <img width="1470" alt="Screenshot 2024-03-27 at 9 40 07 PM" src="https://github.com/hallefsantos/monogram-exercise/assets/20205767/bda5fdcf-fd7e-45b2-9040-f99f20d718e3">
 
 <hr>
@@ -55,7 +55,7 @@ Just for comparison, these are the notes without using the ThreeJS plugin (unfor
 ### Desktop (without ThreeJS)
 <img width="1800" alt="Screenshot 2024-03-27 at 10 11 11 PM" src="https://github.com/hallefsantos/monogram-exercise/assets/20205767/1217dca2-d1e3-4c49-b966-18fe1ce36f90">
 
-### Desktop (without ThreeJS)
+### Mobile (without ThreeJS)
 <img width="1798" alt="Screenshot 2024-03-27 at 10 11 05 PM" src="https://github.com/hallefsantos/monogram-exercise/assets/20205767/8ab8454e-1a36-4e8a-88c4-9e05818f0b1c">
 
 
