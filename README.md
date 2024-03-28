@@ -2,11 +2,6 @@
 
 <img width="1800" alt="Screenshot 2024-03-27 at 9 50 36 PM" src="https://github.com/hallefsantos/monogram-exercise/assets/20205767/83290927-4a91-4323-a896-14d1f47eabcf">
 
-
-## Description
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu augue massa, tincidunt proin nunc viverra tristique tempor, ipsum. At lectus vel pretium tempor ut dui vivamus sit. 
-
 ## Tech/Framework Used
 
 - SvelteKit
