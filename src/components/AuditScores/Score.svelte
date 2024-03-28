@@ -1,26 +1,40 @@
 <script lang="ts">
+	import { cn } from '$lib/utils';
 	import { onMount } from 'svelte'
 
-  let count = 0
+  export let disabled = false
+  export let count: number
+
+  // let count = 0
   const totalTime = 10000
-  const intervalTime = (totalTime / 100) / 2.15
+  const intervalTime = (totalTime / count) / 2.15
 
   onMount(() => {
-    const counting = setInterval(() => {
-        if (count < 100) {
-          count += 1
-        } else {
-          clearInterval(counting)
-        }
-    }, intervalTime)
+    if (!disabled) {
+      const definedCount = count
+      count = 0
+
+      const counting = setInterval(() => {
+          if (count < definedCount) {
+            count += 1
+          } else {
+            clearInterval(counting)
+          }
+      }, intervalTime)
+    }
   })
 </script>
 
 <div class="relative grid place-items-center xl:max-w-[212px] w-[112px] xl:w-full mx-auto aspect-square rounded-full">
-  <svg class="absolute top-1/2 left-[45.5%] -translate-y-1/2 -translate-x-1/2 w-[150%]" viewBox="0 0 320 338" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg class={cn('absolute top-1/2 left-[45.5%] -translate-y-1/2 -translate-x-1/2 w-[150%] ', {
+    'opacity-30': disabled,
+  })} viewBox="0 0 320 338" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g filter="url(#filter0_ddd_15_192)">
         <path
-            class="animate-score [stroke-dasharray:1000] [stroke-dashoffset:1000] [animation-fill-mode:forwards]"
+            class={cn('[animation-fill-mode:forwards]', {
+              'animate-score [stroke-dasharray:1000] [stroke-dashoffset:1000]': !disabled,
+              '[stroke-dasharray:0] [stroke-dashoffset:0] ': disabled,
+            })}
             d="M275.334 169C275.334 141.861 264.925 115.756 246.251 96.0635C227.578 76.3707 202.062 64.5903 174.962 63.1496C147.861 61.7089 121.24 70.7175 100.584 88.3194C79.9275 105.921 66.8092 130.776 63.9318 157.761C61.0544 184.747 68.6371 211.809 85.1175 233.37C101.598 254.932 125.721 269.351 152.516 273.657C179.311 277.963 206.737 271.828 229.143 256.515C251.549 241.203 267.229 217.879 272.951 191.351"
             stroke="#EFFFE2"
             stroke-width="4"

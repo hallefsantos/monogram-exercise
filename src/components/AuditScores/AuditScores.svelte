@@ -10,10 +10,10 @@
       <h2 class="text-green-100 font-black text-center text-[32px] xl:text-3xl">top audit scores</h2>
       <div use:visibility={(visible) => isVisible = visible} class="grid grid-cols-2 sm:grid-cols-4 gap-4 xl:flex xl:justify-between xl:items-center xl:w-full mt-10 xl:mt-[96px]">
         {#if isVisible}
-          <Score />
-          <Score />
-          <Score />
-          <Score />
+          <Score count={100} />
+          <Score count={100} />
+          <Score disabled count={100} />
+          <Score count={100} />
         {/if}
       </div>
       <div class="xl:max-w-[756px] w-full mt-10 xl:mt-32 mx-auto space-y-5 xl:space-y-16 [&>p]:text-white xl:[&>p]:text-lg opacity-70">
