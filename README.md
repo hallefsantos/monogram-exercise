@@ -1,38 +1,58 @@
-# create-svelte
+# Front-end Development Exercise III
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+<img width="1800" alt="Screenshot 2024-03-27 at 9 50 36 PM" src="https://github.com/hallefsantos/monogram-exercise/assets/20205767/83290927-4a91-4323-a896-14d1f47eabcf">
 
-## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Description
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu augue massa, tincidunt proin nunc viverra tristique tempor, ipsum. At lectus vel pretium tempor ut dui vivamus sit. 
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Tech/Framework Used
 
-## Developing
+- SvelteKit
+- TailwindCSS
+- ThreeJS
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Installation
 
-```bash
-npm run dev
+This project requires node and npm installed globally.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
+Clone the repository to a directory of your choosing
 
 ```bash
-npm run build
+$ git clone git@github.com:hallefsantos/monogram-exercise.git
 ```
 
-You can preview the production build with `npm run preview`.
+Navigate into monogram-exercise and install the necessary packages
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+```bash
+$ npm install
+```
+
+To start up the app locally
+
+```bash
+$ npm run dev
+```
+
+## web.dev
+
+### Desktop
+<img width="1466" alt="Screenshot 2024-03-27 at 9 40 17 PM" src="https://github.com/hallefsantos/monogram-exercise/assets/20205767/1eb52b6e-b50a-49a5-870e-86b28bf0454e">
+
+### Desktop
+<img width="1470" alt="Screenshot 2024-03-27 at 9 40 07 PM" src="https://github.com/hallefsantos/monogram-exercise/assets/20205767/bda5fdcf-fd7e-45b2-9040-f99f20d718e3">
+
+<hr>
+
+Just for comparison, these are the notes without using the ThreeJS plugin (unfortunately it hinders performance a lot)
+
+
+### Desktop (without ThreeJS)
+<img width="1800" alt="Screenshot 2024-03-27 at 10 11 11 PM" src="https://github.com/hallefsantos/monogram-exercise/assets/20205767/1217dca2-d1e3-4c49-b966-18fe1ce36f90">
+
+### Desktop (without ThreeJS)
+<img width="1798" alt="Screenshot 2024-03-27 at 10 11 05 PM" src="https://github.com/hallefsantos/monogram-exercise/assets/20205767/8ab8454e-1a36-4e8a-88c4-9e05818f0b1c">
+
+
+
